@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="CountryData" representedClassName="CountryData" syncable="YES" codeGenerationType="class">
+        <attribute name="countryID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryLogo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TeamPlayers" representedClassName="TeamPlayers" syncable="YES" codeGenerationType="class">
+        <attribute name="countryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CountryData" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="TeamPlayers" positionX="-54" positionY="18" width="128" height="75"/>
+    </elements>
+</model>
